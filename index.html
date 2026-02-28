@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neelendra Bandaru | Startup Tech Execution Partner</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            blue: '#2563eb',
+                            dark: '#111827',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-white text-brand-dark antialiased">
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-white/80 backdrop-blur-md z-50 border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <div class="font-bold text-xl tracking-tight">Neelendra Bandaru</div>
+                <div class="hidden md:flex space-x-8 text-sm font-medium">
+                    <a href="#who" class="hover:text-brand-blue transition-colors">Who I Work With</a>
+                    <a href="#services" class="hover:text-brand-blue transition-colors">Services</a>
+                    <a href="#why" class="hover:text-brand-blue transition-colors">Why Me</a>
+                </div>
+                <button onclick="openModal()" class="bg-brand-dark text-white px-5 py-2 rounded-full text-sm font-medium hover:bg-brand-blue transition-all cursor-pointer">Book a Call</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-32 pb-20 md:pt-48 md:pb-32 px-4">
+        <div class="max-w-4xl mx-auto text-center">
+            <h1 class="text-4xl md:text-6xl font-bold tracking-tight mb-6">
+                Startup Tech Execution Partner
+            </h1>
+            <h2 class="text-xl md:text-2xl text-gray-600 font-medium mb-8">
+                Helping Early-Stage Founders Launch & Scale Without Hiring a Full Dev Team
+            </h2>
+            <p class="text-lg text-gray-500 mb-10 max-w-2xl mx-auto">
+                10+ years IT experience. I help founders build MVPs, set up infrastructure, integrate payments, and go live fast.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <button onclick="openModal()" class="bg-brand-blue text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-all shadow-lg shadow-blue-200 cursor-pointer">
+                    Book a 20-Min Call
+                </button>
+                <a href="#services" class="bg-white text-brand-dark border border-gray-200 px-8 py-4 rounded-lg font-semibold hover:bg-gray-50 transition-all">
+                    View Services
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Who I Work With -->
+    <section id="who" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-3xl font-bold mb-6">Who I Work With</h2>
+                    <ul class="space-y-4">
+                        <li class="flex items-start">
+                            <svg class="w-6 h-6 text-brand-blue mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                            <span class="text-lg text-gray-700">Early-stage SaaS founders</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-6 h-6 text-brand-blue mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                            <span class="text-lg text-gray-700">Fintech startups</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-6 h-6 text-brand-blue mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                            <span class="text-lg text-gray-700">D2C brands launching online</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-6 h-6 text-brand-blue mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                            <span class="text-lg text-gray-700">Coaches building digital products</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-6 h-6 text-brand-blue mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                            <span class="text-lg text-gray-700">Founders preparing for payment gateway approval</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100">
+                    <h3 class="text-2xl font-bold mb-4">What I Do</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        I act as your technical execution partner, bridging the gap between your vision and a live product. From building your initial MVP and setting up scalable cloud infrastructure to ensuring payment compliance and seamless deployments, I handle the heavy lifting so you can focus on growth.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold mb-4">Services</h2>
+                <p class="text-gray-500">Tailored execution for every stage of your startup journey.</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Service 1 -->
+                <div class="service-card opacity-0 translate-y-8 transition-all duration-700 p-8 rounded-2xl border border-gray-100 hover:border-brand-blue hover:shadow-xl group">
+                    <h3 class="text-xl font-bold mb-2">MVP Build & Launch</h3>
+                    <div class="text-brand-blue font-bold text-lg mb-1">Project-Based Engagement</div>
+                    <div class="text-gray-500 text-sm mb-6">$750 – $1,200 typical range</div>
+                    <ul class="space-y-3 text-gray-600 text-sm mb-8">
+                        <li class="flex items-center"><svg class="w-4 h-4 mr-2 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"></path></svg>Landing page</li>
+                        <li class="flex items-center"><svg class="w-4 h-4 mr-2 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"></path></svg>Hosting setup</li>
+                        <li class="flex items-center"><svg class="w-4 h-4 mr-2 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"></path></svg>Payment integration</li>
+                        <li class="flex items-center"><svg class="w-4 h-4 mr-2 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"></path></svg>Compliance pages</li>
+                        <li class="flex items-center"><svg class="w-4 h-4 mr-2 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"></path></svg>Deployment support</li>
+                    </ul>
+                    <button onclick="openModal()" class="w-full block text-center py-3 rounded-lg border border-brand-dark font-bold group-hover:bg-brand-dark group-hover:text-white transition-all cursor-pointer">👉 Schedule Strategy Call</button>
+                </div>
+                <!-- Service 2 -->
+                <div class="service-card opacity-0 translate-y-8 transition-all duration-700 delay-150 p-8 rounded-2xl border border-gray-100 hover:border-brand-blue hover:shadow-xl group">
+                    <h3 class="text-xl font-bold mb-2">Startup Infrastructure</h3>
+                    <div class="text-brand-blue font-bold text-lg mb-1">Project-Based Engagement</div>
+                    <div class="text-gray-500 text-sm mb-6">$500 – $900 typical range</div>
+                    <ul class="space-y-3 text-gray-600 text-sm mb-8">
+                        <li class="flex items-center"><svg class="w-4 h-4 mr-2 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"></path></svg>Email setup</li>
+                        <li class="flex items-center"><svg class="w-4 h-4 mr-2 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"></path></svg>Hosting architecture</li>
+                        <li class="flex items-center"><svg class="w-4 h-4 mr-2 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"></path></svg>Deployment pipeline</li>
+                        <li class="flex items-center"><svg class="w-4 h-4 mr-2 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"></path></svg>Monitoring basics</li>
+                    </ul>
+                    <button onclick="openModal()" class="w-full block text-center py-3 rounded-lg border border-brand-dark font-bold group-hover:bg-brand-dark group-hover:text-white transition-all cursor-pointer">👉 Schedule Strategy Call</button>
+                </div>
+                <!-- Service 3 -->
+                <div class="service-card opacity-0 translate-y-8 transition-all duration-700 delay-300 p-8 rounded-2xl border border-gray-100 hover:border-brand-blue hover:shadow-xl group">
+                    <h3 class="text-xl font-bold mb-2">AI Workflow Implementation</h3>
+                    <div class="text-brand-blue font-bold text-lg mb-1">Project-Based Engagement</div>
+                    <div class="text-gray-500 text-sm mb-6">$600 – $1,000 typical range</div>
+                    <ul class="space-y-3 text-gray-600 text-sm mb-8">
+                        <li class="flex items-center"><svg class="w-4 h-4 mr-2 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"></path></svg>Chatbot setup</li>
+                        <li class="flex items-center"><svg class="w-4 h-4 mr-2 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"></path></svg>Automation workflows</li>
+                        <li class="flex items-center"><svg class="w-4 h-4 mr-2 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"></path></svg>CRM integration</li>
+                    </ul>
+                    <button onclick="openModal()" class="w-full block text-center py-3 rounded-lg border border-brand-dark font-bold group-hover:bg-brand-dark group-hover:text-white transition-all cursor-pointer">👉 Schedule Strategy Call</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Case Snapshot -->
+    <section class="py-20 bg-brand-dark text-white">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <span class="text-brand-blue font-bold tracking-widest text-xs uppercase mb-4 block">Case Snapshot</span>
+            <h2 class="text-3xl font-bold mb-6">Remedium Pharma – Payment-Ready Launch</h2>
+            <p class="text-xl text-gray-300 leading-relaxed mb-10">
+                Built and deployed a compliance-ready landing website to support payment gateway approval for a healthcare startup.
+            </p>
+            
+            <div class="grid md:grid-cols-2 gap-12 text-left max-w-3xl mx-auto bg-white/5 p-8 rounded-2xl border border-white/10">
+                <div>
+                    <h4 class="text-brand-blue font-bold text-sm uppercase tracking-wider mb-4">Scope</h4>
+                    <ul class="space-y-3 text-gray-300">
+                        <li class="flex items-start">
+                            <span class="text-brand-blue mr-3">•</span>
+                            <span>AI-assisted landing page development</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-brand-blue mr-3">•</span>
+                            <span>Google Cloud Run deployment</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-brand-blue mr-3">•</span>
+                            <span>Cloud infrastructure configuration</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-brand-blue mr-3">•</span>
+                            <span>Privacy Policy & Terms setup</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-brand-blue mr-3">•</span>
+                            <span>Payment integration readiness testing</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="flex flex-col justify-between">
+                    <div>
+                        <h4 class="text-brand-blue font-bold text-sm uppercase tracking-wider mb-4">Outcome</h4>
+                        <p class="text-gray-200 font-medium mb-4">
+                            Payment gateway approval granted and website successfully launched.
+                        </p>
+                    </div>
+                    <p class="text-gray-500 text-sm italic border-t border-white/10 pt-4">
+                        Live deployment available upon request.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Work With Me -->
+    <section id="why" class="py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="order-2 md:order-1">
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="p-6 bg-gray-50 rounded-xl">
+                            <div class="text-3xl font-bold text-brand-blue mb-1">10+</div>
+                            <div class="text-sm text-gray-600">Years Experience</div>
+                        </div>
+                        <div class="p-6 bg-gray-50 rounded-xl">
+                            <div class="text-3xl font-bold text-brand-blue mb-1">Fast</div>
+                            <div class="text-sm text-gray-600">Execution</div>
+                        </div>
+                        <div class="p-6 bg-gray-50 rounded-xl">
+                            <div class="text-3xl font-bold text-brand-blue mb-1">Scale</div>
+                            <div class="text-sm text-gray-600">Ready</div>
+                        </div>
+                        <div class="p-6 bg-gray-50 rounded-xl">
+                            <div class="text-3xl font-bold text-brand-blue mb-1">Direct</div>
+                            <div class="text-sm text-gray-600">Communication</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="order-1 md:order-2">
+                    <h2 class="text-3xl font-bold mb-8">Why Work With Me</h2>
+                    <ul class="space-y-6">
+                        <li class="flex">
+                            <div class="w-12 h-12 bg-blue-50 rounded-full flex items-center justify-center mr-4 shrink-0">
+                                <svg class="w-6 h-6 text-brand-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
+                            </div>
+                            <div>
+                                <h4 class="font-bold mb-1">10 years IT experience</h4>
+                                <p class="text-gray-600 text-sm">Deep technical knowledge across various stacks and industries.</p>
+                            </div>
+                        </li>
+                        <li class="flex">
+                            <div class="w-12 h-12 bg-blue-50 rounded-full flex items-center justify-center mr-4 shrink-0">
+                                <svg class="w-6 h-6 text-brand-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 002-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
+                            </div>
+                            <div>
+                                <h4 class="font-bold mb-1">Structured systems thinking</h4>
+                                <p class="text-gray-600 text-sm">Building for today with tomorrow's scale in mind.</p>
+                            </div>
+                        </li>
+                        <li class="flex">
+                            <div class="w-12 h-12 bg-blue-50 rounded-full flex items-center justify-center mr-4 shrink-0">
+                                <svg class="w-6 h-6 text-brand-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                            </div>
+                            <div>
+                                <h4 class="font-bold mb-1">Fast execution</h4>
+                                <p class="text-gray-600 text-sm">Moving from idea to live product in weeks, not months.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section id="contact" class="py-20 bg-gray-50">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <h2 class="text-4xl font-bold mb-4">Launching Soon?</h2>
+            <p class="text-xl text-gray-600 mb-10">
+                Let’s remove bottlenecks before they become delays.
+            </p>
+            <button onclick="openModal()" class="inline-block bg-brand-blue text-white px-10 py-5 rounded-xl font-bold text-lg hover:bg-blue-700 transition-all shadow-xl shadow-blue-200">
+                Schedule a Call
+            </button>
+            <div class="mt-12 text-sm text-gray-400">
+                © 2024 Neelendra Bandaru. All rights reserved.
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Modal -->
+    <div id="contactModal" class="fixed inset-0 z-[100] hidden">
+        <div class="absolute inset-0 bg-brand-dark/60 backdrop-blur-sm" onclick="closeModal()"></div>
+        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-lg p-4">
+            <div class="bg-white rounded-3xl shadow-2xl overflow-hidden animate-in fade-in zoom-in duration-300">
+                <div class="p-8">
+                    <div class="flex justify-between items-center mb-6">
+                        <h3 class="text-2xl font-bold">Book a 20-Min Call</h3>
+                        <button onclick="closeModal()" class="text-gray-400 hover:text-brand-dark transition-colors">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                        </button>
+                    </div>
+                    <form id="contactForm" class="space-y-4" onsubmit="handleFormSubmit(event)">
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-1">Full Name</label>
+                            <input type="text" required class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-brand-blue focus:ring-2 focus:ring-blue-100 outline-none transition-all">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-1">Email Address</label>
+                            <input type="email" required class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-brand-blue focus:ring-2 focus:ring-blue-100 outline-none transition-all">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-1">Project Details</label>
+                            <textarea required rows="3" class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-brand-blue focus:ring-2 focus:ring-blue-100 outline-none transition-all" placeholder="Tell me about your startup..."></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-brand-blue text-white py-4 rounded-xl font-bold hover:bg-blue-700 transition-all shadow-lg shadow-blue-100">
+                            Send Request
+                        </button>
+                    </form>
+                    <div id="successMessage" class="hidden text-center py-8">
+                        <div class="w-16 h-16 bg-green-100 text-green-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                        </div>
+                        <h4 class="text-xl font-bold mb-2">Request Sent!</h4>
+                        <p class="text-gray-500">I'll get back to you within 24 hours.</p>
+                        <button onclick="closeModal()" class="mt-6 text-brand-blue font-semibold">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTop" class="fixed bottom-8 right-8 z-50 p-4 rounded-full bg-brand-dark text-white shadow-2xl opacity-0 translate-y-10 pointer-events-none transition-all duration-300 hover:scale-110 active:scale-95 group">
+        <svg class="w-6 h-6 group-hover:-translate-y-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"></path>
+        </svg>
+    </button>
+
+    <script>
+        // Scroll to Top Logic
+        const scrollBtn = document.getElementById('scrollToTop');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 500) {
+                scrollBtn.classList.remove('opacity-0', 'translate-y-10', 'pointer-events-none');
+            } else {
+                scrollBtn.classList.add('opacity-0', 'translate-y-10', 'pointer-events-none');
+            }
+        });
+        scrollBtn.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        function openModal() {
+            document.getElementById('contactModal').classList.remove('hidden');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeModal() {
+            document.getElementById('contactModal').classList.add('hidden');
+            document.body.style.overflow = 'auto';
+            // Reset form
+            setTimeout(() => {
+                document.getElementById('contactForm').classList.remove('hidden');
+                document.getElementById('successMessage').classList.add('hidden');
+                document.getElementById('contactForm').reset();
+            }, 300);
+        }
+
+        async function handleFormSubmit(e) {
+            e.preventDefault();
+            const form = e.target;
+            const name = form.querySelector('input[type="text"]').value;
+            const email = form.querySelector('input[type="email"]').value;
+            const details = form.querySelector('textarea').value;
+
+            try {
+                const response = await fetch('/api/leads', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ name, email, details })
+                });
+
+                if (response.ok) {
+                    document.getElementById('contactForm').classList.add('hidden');
+                    document.getElementById('successMessage').classList.remove('hidden');
+                } else {
+                    alert('Failed to send request. Please try again.');
+                }
+            } catch (error) {
+                console.error('Submission error:', error);
+                alert('An error occurred. Please check your connection.');
+            }
+        }
+
+        // Intersection Observer for scroll animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.remove('opacity-0', 'translate-y-8');
+                    entry.target.classList.add('opacity-100', 'translate-y-0');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.service-card').forEach(card => {
+            observer.observe(card);
+        });
+    </script>
+</body>
+</html>
+
